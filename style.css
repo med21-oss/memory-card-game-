@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#game-board {
+    display: inline-block;
+    margin-top: 20px;
+}
+.card {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: #eee;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hidden {
+    background-color: #bbb;
+}
